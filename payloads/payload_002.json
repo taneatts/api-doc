@@ -1,0 +1,66 @@
+{
+  "system_code": "KNOCK2",
+  "approval_flag": true,
+  "call_back_url": "https://your-callback-url.com/webhook2",
+  "approval": {
+    "doc_no": "JXXXX0000002",
+    "doc_ref": "v2",
+    "amount": 12.0,
+    "remark": "Test disbursement2",
+    "doc_meta_data": {
+      "group_code": "G24-0177",
+      "account_code": "A25-0075",
+      "disbursement_type": "GCM"
+    },
+    "payees": {
+      "ga_no": "G-A25-0177-E0000001-00",
+      "payee_info": [
+        {
+          "payment_type": "BANK_TRANSFER2",
+          "payee_type": "10101",
+          "payee_name": "",
+          "title": {
+            "en_US": "Mr.2",
+            "th_TH": "นาย2"
+          },
+          "first_name": {
+            "en_US": "Noi2",
+            "th_TH": "น้อย2"
+          },
+          "last_name": {
+            "en_US": "Charoenthip2",
+            "th_TH": "เจริญทิพย์2"
+          },
+          "mobile_no": "0982345679",
+          "idcard_no": "5246368220331",
+          "tax_id": "",
+          "passport_no": "",
+          "code": "000012",
+          "bank_info": {
+            "bank_code": "BAAO2",
+            "branch_code": "BAAO$0000012",
+            "account_no": "47596048002",
+            "account_name": "น้อย2 เจริญทิพย์2",
+            "media_clearing_type_code": ""
+          },
+          "cheque_info": null,
+          "k_trade_info": null,
+          "relation": "12",
+          "date_of_birth": "2019-07-29T17:00:00Z",
+          "pay_rate": 52.0,
+          "amount": 12.0,
+          "delivery_address_1": "876543212",
+          "delivery_address_2": "22",
+          "mailing_zip_code": "103102",
+          "tax": {
+            "tax_rate": 72.0,
+            "boi": false,
+            "boi_start_date": null,
+            "boi_expiry_date": null
+          }
+        }
+      ],
+      "committees": []
+    }
+  }
+}

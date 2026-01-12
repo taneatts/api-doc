@@ -15,18 +15,18 @@ st.caption("Generate JSON payload from Excel (Row 22 header format)")
 # ================= DOWNLOAD TEMPLATE =================
 st.markdown("## 📥 Download Excel Template")
 
-SAMPLE_FILE_PATH = "API_Transaction_sample.xlsx"
+SAMPLE_FILE_PATH = "API_Transaction.xlsx"
 
 if os.path.exists(SAMPLE_FILE_PATH):
     with open(SAMPLE_FILE_PATH, "rb") as f:
         st.download_button(
             label="⬇️ Download Excel Template",
             data=f,
-            file_name="API_Transaction_template.xlsx",
+            file_name="API_Transaction.xlsx",
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
         )
 else:
-    st.warning("⚠️ ไม่พบไฟล์ตัวอย่าง (sample/API_Transaction_sample.xlsx)")
+    st.warning("⚠️ ไม่พบไฟล์ตัวอย่าง (API_Transaction.xlsx)")
 
 st.info(
     "📌 กรุณาใช้ไฟล์นี้เป็น Template\n\n"

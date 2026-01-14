@@ -1,16 +1,19 @@
 {
-  "system_code": "KNOCK3",
+  "system_code": "KNOCK",
   "approval_flag": true,
   "call_back_url": "https://your-callback-url.com/webhook3",
   "approval": {
     "doc_no": "JXXXX0000003",
     "doc_ref": "v3",
-    "amount": 13.0,
+    "net_amount": 2000.0,
     "remark": "Test disbursement3",
     "doc_meta_data": {
       "group_code": "G24-0178",
       "account_code": "A25-0076",
-      "disbursement_type": "GCM"
+      "disbursement_type": "GCM",
+      "vat": 7.0,
+      "wht": 9.0,
+      "amount": 3000.0
     },
     "payees": {
       "ga_no": "G-A25-0176-E0000001-00",
@@ -18,7 +21,6 @@
         {
           "payment_type": "BANK_TRANSFER3",
           "payee_type": "10102",
-          "payee_name": "",
           "title": {
             "en_US": "Mr.3",
             "th_TH": "นาย3"
@@ -32,9 +34,8 @@
             "th_TH": "เจริญทิพย์3"
           },
           "mobile_no": "0612345999",
-          "idcard_no": "5246368221321",
-          "tax_id": "",
-          "passport_no": "",
+          "identity_type": "ID Card",
+          "identity_no": "5246368221321",
           "code": "000013",
           "bank_info": {
             "bank_code": "BAAO3",
@@ -50,14 +51,9 @@
           "pay_rate": 53.0,
           "amount": 13.0,
           "delivery_address_1": "876543213",
-          "delivery_address_2": "33",
+          "delivery_address_2": "",
           "mailing_zip_code": "103103",
-          "tax": {
-            "tax_rate": 73.0,
-            "boi": false,
-            "boi_start_date": null,
-            "boi_expiry_date": null
-          }
+          "tax": null
         }
       ],
       "committees": []

@@ -1,0 +1,75 @@
+{
+  "system_code": "KNOCK",
+  "approval_flag": true,
+  "call_back_url": "https://your-callback-url.com/webhook3",
+  "approval": {
+    "doc_no": "JXXXX0000003",
+    "doc_ref": "v3",
+    "net_amount": 2000.0,
+    "remark": "Test disbursement3",
+    "doc_meta_data": {
+      "group_code": "G24-0178",
+      "account_code": "A25-0076",
+      "disbursement_type": "GPM",
+      "vat": 7.0,
+      "wht": 9.0,
+      "amount": 3000.0
+    },
+    "payees": {
+      "ga_no": "G-A25-0176-E0000001-00",
+      "payee_info": [
+        {
+          "payment_type": "BANK_TRANSFER3",
+          "payee_type": "10023",
+          "payee_name": {
+            "en_US": "Muang Thai Life Assurance",
+            "th_TH": "เมืองไทยประกันชีวิต"
+          },
+          "title": {
+            "en_US": "Company",
+            "th_TH": "บริษัท"
+          },
+          "mobile_no": "0612345999",
+          "identity_type": "Tax ID",
+          "identity_no": "124352432425",
+          "code": "000023",
+          "bank_info": {
+            "bank_code": "BAAO3",
+            "branch_code": "BAAO$0000013",
+            "account_no": "47596048003",
+            "account_name": "น้อย3 เจริญทิพย์3",
+            "media_clearing_type_code": ""
+          },
+          "cheque_info": null,
+          "k_trade_info": null,
+          "relation": "13",
+          "date_of_birth": "2019-07-28T17:00:00Z",
+          "pay_rate": 53.0,
+          "amount": 13.0,
+          "delivery_address_1": "876543213",
+          "delivery_address_2": "",
+          "mailing_zip_code": "103103",
+          "tax": null
+        }
+      ],
+      "committees": [
+        {
+          "title": {
+            "en_US": "Mr.",
+            "th_TH": "นาย"
+          },
+          "first_name": {
+            "en_US": "Noi3",
+            "th_TH": "น้อย3"
+          },
+          "last_name": {
+            "en_US": "Charoenthip3",
+            "th_TH": "เจริญทิพย์3"
+          },
+          "identity_type": "ID Card",
+          "identity_no": "5246368221573"
+        }
+      ]
+    }
+  }
+}

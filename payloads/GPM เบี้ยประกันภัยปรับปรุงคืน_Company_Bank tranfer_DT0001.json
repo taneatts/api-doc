@@ -5,37 +5,34 @@
   "approval": {
     "doc_no": "JXXXX0000001",
     "doc_ref": "v1",
-    "amount": 1.0,
+    "net_amount": 20.0,
     "remark": "Test disbursement",
     "doc_meta_data": {
       "group_code": "G24-0166",
       "account_code": "A25-0071",
-      "disbursement_type": "GHC"
+      "disbursement_type": "GPM",
+      "vat": 5.0,
+      "wht": 7.0,
+      "amount": 1000.0
     },
     "payees": {
       "ga_no": "G-A25-0071-E0000001-00",
       "payee_info": [
         {
           "payment_type": "BANK_TRANSFER",
-          "payee_type": "1010",
-          "payee_name": "",
+          "payee_type": "1002",
+          "payee_name": {
+            "en_US": "Muang Thai Life Assurance",
+            "th_TH": "เมืองไทยประกันชีวิต"
+          },
           "title": {
-            "en_US": "Mr.",
-            "th_TH": "นาย"
-          },
-          "first_name": {
-            "en_US": "Noi1",
-            "th_TH": "น้อย1"
-          },
-          "last_name": {
-            "en_US": "Charoenthip",
-            "th_TH": "เจริญทิพย์"
+            "en_US": "Company",
+            "th_TH": "บริษัท"
           },
           "mobile_no": "0612345679",
-          "idcard_no": "5246368221571",
-          "tax_id": "",
-          "passport_no": "",
-          "code": "00001",
+          "identity_type": "Tax ID",
+          "identity_no": "124352432423",
+          "code": "00002",
           "bank_info": {
             "bank_code": "BAAO",
             "branch_code": "BAAO$000001",
@@ -52,15 +49,27 @@
           "delivery_address_1": "1234/5678",
           "delivery_address_2": "",
           "mailing_zip_code": "10310",
-          "tax": {
-            "tax_rate": 7.0,
-            "boi": false,
-            "boi_start_date": null,
-            "boi_expiry_date": null
-          }
+          "tax": null
         }
       ],
-      "committees": []
+      "committees": [
+        {
+          "title": {
+            "en_US": "Mr.",
+            "th_TH": "นาย"
+          },
+          "first_name": {
+            "en_US": "Noi",
+            "th_TH": "น้อย"
+          },
+          "last_name": {
+            "en_US": "Charoenthip",
+            "th_TH": "เจริญทิพย์"
+          },
+          "identity_type": "ID Card",
+          "identity_no": "5246368221571"
+        }
+      ]
     }
   }
 }
